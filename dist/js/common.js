@@ -46,3 +46,13 @@
 	});
 
 });
+
+let menu = document.getElementsByClassName('aside')[0];
+
+function toogleMenu() {
+    if (menu.className === 'aside') {
+    	menu.className += " aside_header";
+    } else {
+    	menu.className = "aside";
+    }
+}

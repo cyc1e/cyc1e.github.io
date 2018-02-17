@@ -159,6 +159,9 @@ i {
   width: 1170px;
   background-color: #f8f8f8; }
 
+.burger {
+  display: none; }
+
 .aside {
   display: -webkit-box;
   display: -webkit-flex;
