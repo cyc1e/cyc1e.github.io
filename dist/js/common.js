@@ -5,28 +5,24 @@
 		// margin: 10,
 		// stagePudding: 20,
 		items : 6,
-		autoplay: true,
-		autoplaytimeout: 1000,
 		// responsive: {
 		// 	0: {
-		// 		items: 6,
+		// 		items: 1,
 		// 	},
 		// 	320: {
-		// 		items: 3,
+		// 		items: 1,
 		// 	},
 		// 	480: {
-		// 		items: 4,
+		// 		items: 1,
 		// 	},
 		// 	768: {
-		// 		items: 5,
+		// 		items: 1,
 		// 	},
-		// 	992: {
+		// 	1024: {
 		// 		items: 5,
-		// 		autoplay: true,
 		// 	},
 		// 	1200: {
 		// 		items: 6,
-		// 		autoplay: true,
 		// 	},
 		// }	
 	});
