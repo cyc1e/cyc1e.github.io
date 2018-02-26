@@ -1,5 +1,7 @@
 body {
-  margin: 0 auto; }
+  margin: 0 auto;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s; }
 
 header {
   background: url(../img/header_img.png);
@@ -295,7 +297,7 @@ header {
   height: 80%;
   margin: auto; }
   .imagn b {
-    line-height: 40px; }
+    line-height: 50px; }
   .imagn p {
     line-height: 20px; }
 
@@ -587,7 +589,8 @@ header {
           align-items: center;
   width: 100%;
   background-color: #333366;
-  font-family: 'Exo', sans-serif; }
+  font-family: 'Exo', sans-serif;
+  z-index: 2; }
 
 .before_foot_head {
   display: -webkit-box;
@@ -711,6 +714,8 @@ input {
   color: #ffffff;
   -webkit-box-shadow: 0.2rem 0.8rem 1.6rem black;
           box-shadow: 0.2rem 0.8rem 1.6rem black; }
+  .trynow input:hover {
+    cursor: pointer; }
 
 .foot {
   width: 100%;
