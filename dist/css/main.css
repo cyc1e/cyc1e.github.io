@@ -27,53 +27,47 @@ body {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #abeafa;
   height: 700px;
   width: 100%; }
 
-img {
-  width: 125px;
-  height: 111px;
-  margin-top: 24px;
-  margin-left: 15px; }
+.left_header {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 50%; }
 
-.icons {
-  width: 120px;
-  height: 16px;
-  margin-top: 50px;
-  margin-left: 792px; }
-
-i {
-  color: #fff; }
-
-.data {
-  width: 313px;
-  height: 169px;
-  margin-top: 100px;
-  margin-left: 913px;
-  margin-bottom: 288px; }
-  .data h1 {
-    font-family: Raleway-bold, sans-serif;
-    color: #fff51f;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 34px;
-    text-align: left;
-    margin: auto; }
-  .data p {
-    font-family: Raleway;
-    color: #fff51f;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
+.logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .logo img {
     margin: auto; }
 
 .welcome {
@@ -97,20 +91,18 @@ i {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  right: 1065px;
-  top: 201px;
+  background-color: #fff51f;
   width: 270px;
   height: 300px;
-  background-color: #fff51f; }
+  margin-right: 151px; }
   .welcome h1 {
-    width: 199px;
     font-family: Raleway-bold, sans-serif;
     color: #333333;
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
-    text-align: left; }
+    text-align: left;
+    width: 199px; }
   .welcome p {
     font-family: Raleway, sans-serif;
     color: #333333;
@@ -119,8 +111,110 @@ i {
     line-height: 14px;
     text-align: left; }
 
-.buy {
-  position: relative;
+.right_header {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 50%; }
+
+.icons {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 100%;
+  margin-top: 100px; }
+
+.fa {
+  padding-left: 5px; }
+
+.fa-instagram {
+  margin-right: 176px; }
+
+i {
+  color: #fff; }
+
+.logo2 {
+  display: none; }
+
+.data {
+  width: 313px;
+  height: 169px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .data h1 {
+    font-family: Raleway-bold, sans-serif;
+    color: #fff51f;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin: auto; }
+  .data p {
+    font-family: Raleway;
+    color: #fff51f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: auto; }
+
+.buynow {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -128,16 +222,28 @@ i {
   background-color: #fff51f;
   width: 124px;
   height: 49px;
-  left: 229px;
-  bottom: 177px;
-  text-decoration: none; }
-  .buy:hover {
+  text-decoration: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 176px; }
+  .buynow:hover {
     background-color: #4d4d4d;
     color: #dfdfdf; }
-  .buy:active {
+  .buynow:active {
     background-color: #fdfdfd;
     color: #4d4d4d; }
-  .buy h1 {
+  .buynow h1 {
     font-family: Roboto-bold, sans-serif;
     color: #000000;
     font-size: 14px;
