@@ -86,9 +86,9 @@ header {
           flex-wrap: wrap-reverse; }
 
 .fua-gra {
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: center; }
+  margin: 10px;
+  text-align: center;
+  position: relative; }
 
 .fua-gra1 {
   position: absolute;
@@ -114,9 +114,9 @@ header {
           border-radius: 50%; }
 
 .lax {
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: center; }
+  margin: 10px;
+  text-align: center;
+  position: relative; }
 
 .lax1 {
   position: absolute;
@@ -142,11 +142,11 @@ header {
           border-radius: 50%; }
 
 .chiken {
-  padding-left: 100px;
-  padding-right: 100px;
+  margin: 10px;
   text-align: center;
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%); }
+          filter: grayscale(100%);
+  position: relative; }
   .chiken:hover {
     -webkit-filter: none;
             filter: none; }
