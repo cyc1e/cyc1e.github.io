@@ -7,7 +7,7 @@ header {
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover;
-  min-height: 1080px;
+  height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -81,16 +81,13 @@ header {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  -webkit-flex-wrap: wrap-reverse;
+      -ms-flex-wrap: wrap-reverse;
+          flex-wrap: wrap-reverse; }
 
 .fua-gra {
-  margin-left: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center; }
 
 .fua-gra1 {
@@ -117,7 +114,8 @@ header {
           border-radius: 50%; }
 
 .lax {
-  margin-left: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center; }
 
 .lax1 {
@@ -144,7 +142,8 @@ header {
           border-radius: 50%; }
 
 .chiken {
-  margin-left: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%); }
