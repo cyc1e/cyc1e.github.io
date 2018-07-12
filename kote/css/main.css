@@ -90,7 +90,8 @@ header {
 
 .fua-gra {
   margin: 10px;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
 
 .fua-gra1 {
   position: absolute;
@@ -117,7 +118,8 @@ header {
 
 .lax {
   margin: 10px;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
 
 .lax1 {
   position: absolute;
@@ -149,7 +151,10 @@ header {
           filter: grayscale(100%); }
   .chiken:hover {
     -webkit-filter: none;
-            filter: none; }
+            filter: none;
+    -webkit-transition-delay: .5s;
+         -o-transition-delay: .5s;
+            transition-delay: .5s; }
 
 .chiken1 {
   position: absolute;
