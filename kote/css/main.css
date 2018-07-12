@@ -27,9 +27,6 @@ header {
       -ms-flex-align: center;
           align-items: center; }
 
-img {
-  min-height: 500px; }
-
 .bg {
   background: url(../img/shadow.png);
   background-repeat: no-repeat;
@@ -89,8 +86,7 @@ img {
           justify-content: center;
   -webkit-flex-wrap: wrap-reverse;
       -ms-flex-wrap: wrap-reverse;
-          flex-wrap: wrap-reverse;
-  width: 100%; }
+          flex-wrap: wrap-reverse; }
 
 .fua-gra {
   margin: 10px;
