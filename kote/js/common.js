@@ -6,21 +6,17 @@ let cheked = false
 
 const arr = []
 arr.push(fua, lax, chiken)
-console.log(arr)
 for (let i = 0; i < arr.length; i++) {
 	arr[i].onclick = func
-	console.log(cheked)
 }
 
 function func() {
-	console.log(cheked)
-	if (cheked != true) {
+	if (this.cheked != true && this != chiken) {
 		this.style.borderStyle = 'solid'
-		cheked = true
-		console.log(cheked)
+		this.cheked = true
 	} else  {
 		this.style.borderStyle = 'none'
-		cheked = false
+		this.cheked = false
 	}
 	
 }
